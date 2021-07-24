@@ -7,6 +7,7 @@ function getDateInfo(dateObj) {
     month: dateObj.getMonth()+1,
     year: dateObj.getFullYear(),
   }
+
 }
 
 function firstDateIsBeforeSecondDate(firstDate, secondDate) {
